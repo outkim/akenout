@@ -1,0 +1,15 @@
+{
+  "name": "outkim/akenout",
+  "description": "description_text",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "author's name",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "akeneo/api-php-client": "^3.0",
+    "php-http/guzzle6-adapter": "^1.1"
+  }
+}
