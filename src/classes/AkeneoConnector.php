@@ -40,10 +40,10 @@ class AkeneoConnector
         $categories_array = [];
         foreach($categories as $category){
             //Currently we only need the Norwegian label to check if it exists within the Magento database.
-            $categories_array[$category['labels']['nb_NO']] = $category['code'];
+            $categories_array[$category['labels']['nb_NO']] = ['id' => $category['code'], 'parent_id' => $category['parent']];
 
         }
-
+//        print_r($categories_array);
         return $categories_array;
 
     }
